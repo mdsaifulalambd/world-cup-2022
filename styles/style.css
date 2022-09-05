@@ -114,10 +114,29 @@ main {
 
 }
 
+
 footer {
     text-align: center;
     background-color: black;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+
+}
+
+.footer-item ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.footer-item ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.footer-item ul li a {
+    text-decoration: none;
+    color: white;
 }
