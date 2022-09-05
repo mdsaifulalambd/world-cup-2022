@@ -67,25 +67,31 @@ main {
 
 .side-bar {
     background-color: black;
-    height: 280px;
+    width: 30%;
+    height: 250px;
     border-radius: 10px;
 }
 
 .side-bar-item {
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    grid-row-gap: 30px;
-    padding: 30px;
-    justify-items: center;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 20px;
+    align-items: center;
 }
 
-
-
-.side-bar-item:hover {
+.side-bar:hover {
     border: 2px solid blue;
     border-radius: 10px;
 }
+
+.side-bar-manue:hover {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
 
 
 
@@ -152,6 +158,11 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+/* --------------------------------------
+             Media Query
+------------------------------------------- */
+
 
 @media only screen and (max-width: 688px) {
 
