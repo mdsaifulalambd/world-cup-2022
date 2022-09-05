@@ -4,6 +4,7 @@ main {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -58,11 +59,14 @@ main {
 
 .grid-section {
     margin-top: 30px;
+    display: flex;
+
 }
 
 .side-bar {
     background-color: black;
-    width: 30%;
+
+    height: 350px;
     border-radius: 10px;
 }
 
@@ -86,8 +90,6 @@ main {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-
-
 }
 
 .side-bar-manue a {
@@ -95,5 +97,27 @@ main {
     text-decoration: none;
     font-size: 20px;
     color: black;
+}
 
+.grid-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    grid-gap: 20px;
+    width: 70%;
+}
+
+.grid-item-info {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
