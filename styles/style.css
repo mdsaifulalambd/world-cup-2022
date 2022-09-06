@@ -142,29 +142,26 @@ footer {
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
+
+
 
 .footer-item ul {
     display: flex;
     justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-
-
-
+    padding-left: 0;
 }
 
 .footer-item ul li {
     list-style: none;
-    padding-left: 20px;
-    padding-right: 20px;
-
 }
 
 .footer-item ul li a {
     text-decoration: none;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
 
 }
 
